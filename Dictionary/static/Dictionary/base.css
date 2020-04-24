@@ -1,0 +1,133 @@
+input[type=text] {
+    width: 90%;
+    box-sizing: border-box;
+    /* border: 2px solid #ccc; */
+    border: none;
+    border-radius: 7px;
+    font-size: 16px;
+    color: whitesmoke;
+    background-color: #001f3f;
+    background-position: 10px 10px;
+    background-repeat: no-repeat;
+    /*padding: 12px 20px 12px 40px;*/
+    padding: 0.6%;
+    margin: 0px;
+    width: 90%;
+}
+
+.button{
+    background-color: #4CAF50; 
+    border: none;
+    border-radius: 7px;
+    color: white;
+    /*padding: 13px 30px;*/
+    text-align: center;
+    text-decoration: none;
+    /*display: inline-block;*/
+    font-size: 16px;
+    cursor: pointer;
+
+    padding: 0.6%;
+    width: 9.5%;
+    margin: auto;
+    display: block;
+    float: right;
+}
+
+.button:hover {
+    background-color: #555;
+    color: white;
+}
+
+footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    background-color: /*brown*/ #FF4136;
+    color: cornsilk;
+    font-family: Verdana,Geneva,sans-serif;
+    padding: 5px;
+}
+
+header {
+    display: block;
+    left: 0;
+    top: 0;
+    text-align: center;
+    /* background-color: #FF851B; */
+    color: cornsilk;
+    font-size: large;
+    font-family: Verdana,Geneva,sans-serif;
+}
+
+#s_box {
+  display: block;
+  align-items: center;
+  border-radius: 7px;
+  height: fit-content;
+  margin: 4px;
+}
+
+.meaning {
+    background-color: #001020;
+    color: whitesmoke;
+    display: block;
+    width: 40%;
+    margin: auto;
+    border-radius: 10px;
+    padding: 35px;
+}
+
+.meaning:hover {
+    background-color: #001020;
+    color: whitesmoke;
+    display: block;
+    width: 56%;
+    margin: auto;
+    border-radius: 10px;
+    padding: 35px;
+}
+
+.maincont {
+    display: block;
+    align-items: center;
+    padding-top: 20px;
+}
+
+.word {
+    font-size: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+
+ol {
+    padding-left: 1.2em;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.pos{
+    font-size: 24px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding : 0;
+    margin : 0;
+    line-height : 30px;
+}
+
+#wordpos {
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+a {
+    color: #FF4136;
+    text-decoration: none;
+}
+
+a:hover {
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+}

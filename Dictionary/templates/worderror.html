@@ -1,0 +1,29 @@
+{% extends "base.html" %}
+{% block content %}
+<style>
+    .maincont {
+        margin: auto;
+        width: 60%;
+        padding-top: 20px
+    }
+    #notfound {
+        font-weight: bold;
+        font-size: 20px;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    ul {
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 16px;
+    }
+</style>
+
+<div class="maincont">
+    <div class="meaning"><p id="notfound">No such word found! Similiar words to your search: </p>
+    <ul>
+    {% for i in suggWords%}
+        <li><a href="/search/?q={{i}}">{{i}}</a></li>
+    {% endfor %}
+    </ul>
+    </div>
+</div>
+{% endblock %}

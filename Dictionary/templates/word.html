@@ -1,0 +1,24 @@
+{% extends "base.html" %}
+{% block content %}
+
+<div class="maincont">
+
+    {% for word in Wordlist %}
+        <div class="meaning">
+            <p class="word">{{ word.word }} </p>
+            <p class="pos"><b>Part of speech:</b></p><p id="wordpos"> {{ word.pos }} </p>
+            <p class="pos"><b>Meanings:</b> </p>
+            <ol>
+                {% for mean in word.defn %}
+                    <li>{{ mean }}</li>            
+                {% endfor %}  
+            </ol>
+        </div>
+        <br>
+    {% endfor %}
+
+</div>
+{% endblock %}
+
+
+
